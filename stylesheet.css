@@ -17,6 +17,7 @@ a {
 
 .container {
   max-width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -29,43 +30,25 @@ a {
   text-align: center;
 }
 
-.top-wrapper {
-  margin-top: 62px;
-  padding: 180px 0 100px 0;
-  background-image: url(https://1.bp.blogspot.com/-ylPXJC-frmI/XqG4VDqqs-I/AAAAAAAAKuI/uV9cD1b6bvks8VQGn3XBaW34pJyRf9MXwCLcBGAsYHQ/s1600/gambar.png);
-  background-position: right 10% bottom 30%;
-  background-color: #0d50aa;
-  background-origin: border-box;
-  background-size: 35%;
-  background-repeat: no-repeat;
-  text-align: left;
-}
-
 .top-wrapper h1 {
-  font-size: 30px;
-  letter-spacing: 2px;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
   margin-bottom: 10px;
-  color: #fff;
-  font-weight: 700;
-  font-family: Montserrat, sans-serif;
 }
 
 .top-wrapper p {
+  opacity: 0.7;
   margin-bottom: 3px;
-  font-size: 14px;
-  color: #fff;
-  font-family: Montserrat, sans-serif;
 }
 
 .btn-wrapper {
-  text-align: left;
+  text-align: center;
   margin: 20px 0;
 }
 
 .btn-wrapper p {
-  text-indent: 8%;
   margin: 10px 0;
-  color: #fff;
 }
 
 .signup {
@@ -85,6 +68,7 @@ a {
   padding: 12px 24px;
   color: white;
   display: inline-block;
+  opacity: 0.8;
   border-radius: 4px;
   text-align: center;
 }
@@ -93,68 +77,44 @@ a {
   opacity: 1;
 }
 
-.fa,
-.fab {
+.fa {
   margin-right: 5px;
 }
 
 header {
-  /* height: 65px; */
+  height: 65px;
   width: 100%;
-  background-color: #0d50aa;
-  position: fixed;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
   top: 0;
   z-index: 10;
 }
 
 .logo {
-  width: 184px;
-  transform: translateY(10%);
-  /* padding-top: 10px; */
-  /* margin-top: 20px; */
+  width: 124px;
+  margin-top: 20px;
 }
 
 .header-left {
   float: left;
 }
 
-.topnav {
-  /* float: right; */
-  /* background-color: #0d50aa; */
-  overflow: hidden;
-}
-
-.topnav .nav-left {
-  float: left;
-}
-
-.topnav .nav-right {
+.header-right {
   float: right;
+  margin-right: -25px;
 }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 15px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  line-height: 2;
-  transition: background 250ms ease;
-}
-
-.topnav a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.topnav a.active {
-  background-color: rgb(74, 114, 173);
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
   color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
-.topnav .icon {
-  display: none;
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Tambahkan CSS untuk menu-icon */
@@ -164,62 +124,55 @@ header {
   font-size: 25px;
   padding: 21px 0;
   /* Gantikan property display ke none */
-  display: none;
+display:  none
 }
 
-.team-wrapper {
+
+.lesson-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f1f5f8;
+  background-color: #f7f7f7;
   text-align: center;
 }
 
 .heading {
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 50px;
-  color: rgb(2, 2, 2);
+  color: #5f5d60;
 }
 
 .heading h2 {
-  font-weight: bold;
-  margin: 0 0 15px 0;
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
   position: relative;
-  font-size: 60px;
-  text-transform: uppercase;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
 }
 
 .heading h3 {
-  margin: 0 auto;
-  max-width: 740px;
-  font-size: 25px;
-  font-weight: 400;
+  font-weight: normal;
 }
-
-.team {
-  float: left;
-  width: 20%;
-}
-
-.team-icon img {
-  width: 200px;
-  height: 250px;
-  position: relative;
-  border: 4px solid #b3aeb5;
-  border-radius: 4px;
-}
-
-.team-icon p {
-  position: relative;
-  width: 100%;
-  color: rgb(2, 2, 2);
-  margin: 0 0 0 0;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-}
-
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
