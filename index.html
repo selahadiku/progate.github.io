@@ -1,51 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyek TIM HTML & CSS Progate</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
   </head>
   <body>
     <header>
       <div class="container">
-        <div class="header-left">
-          <img class="logo1" src="https://1.bp.blogspot.com/-VkUr11HV3ic/XqEoAAj--YI/AAAAAAAAKtM/mvLIsJK7E6w-KJd7O1UOlSooiI_d3oBDgCLcBGAsYHQ/s320/cooltext355413455550701.png" width="300" heigth="60">
-        </div>
-        <!-- Tambahkan ikon menu disini -->
-                <span class="fa fa-bars menu-icon"></span>
-        <div class="header-right">
-          <a href="#">Home</a>
-          <a href="#">Profil Kami</a>
-          <a href="#" class="login">Info</a>
-          <a href="#" class="login">Hubungi Kami</a>
+        <div class="topnav" id="myTopnav">
+          <div class="nav-left">
+            <img class="logo1" src="https://1.bp.blogspot.com/-VkUr11HV3ic/XqEoAAj--YI/AAAAAAAAKtM/mvLIsJK7E6w-KJd7O1UOlSooiI_d3oBDgCLcBGAsYHQ/s320/cooltext355413455550701.png" width="250" heigth="60">
+          </div>
+          <div class="nav-right">
+            <a href="#">Home</a>
+            <a href="#tim">Profil Kami</a>
+            <a href="#testi">Testimoni</a>
+            <a href="#kontak">Hubungi Kami</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
         </div>
       </div>
-
     </header>
-     <div class="top-wrapper">
+    <div class="top-wrapper">
       <div class="container">
-        <h1>TIM D17 BELAJAR CODING</h1>
-        <h1>MEMBUAT PROYEK TIM MATERI HTML DAN CSS</h1>
-        <p>Belajar dari awal untuk memperdalam materi membuat web</p>
-        <p>Kami belum begitu mahir namun mencoba terus untuk belajar.</p>
+        <h1>Kolaborasi TIM</h1>
+        <h1>Membangun Proyek Profil TIM.</h1>
+        <p>
+          D7_DTS20 merupakan TIM yang dibentuk melalui program Digital
+          Talent Scholarship 2020
+        </p>
         <div class="btn-wrapper">
-          <a href="#" class="btn signup">Daftar dengan Email</a>
+          <a href="#" class="btn signup"
+            ><span class="fa fa-envelope"></span>Daftar dengan Email</a
+          >
           <p>atau</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
+          <a href="#" class="btn facebook"
+            ><span class="fab fa-facebook-f"></span>Daftar dengan Facebook</a
+          >
+          <a href="#" class="btn twitter"
+            ><span class="fab fa-twitter"></span>Daftar dengan Twitter</a
+          >
         </div>
       </div>
     </div>
-    <div class="lesson-wrapper">
+    <!-- Tim kami -->
+    <div class="tim-wrapper" id="tim">
       <div class="container">
         <div class="heading">
-          <h2>Personel Anggota</h2>
+          <h2>TIM KAMI D7_DTS20</h2>
+          <h3>Personel Anggota</h3>
         </div>
-        <div class="lessons">
+       
+                  <div class="lessons">
           <div class="lesson">
             <div class="lesson-icon">
               <img src="https://prog-8.com/images/html/advanced/html.png">
@@ -83,33 +95,73 @@
           </div>
           <div class="clear"></div>
         </div>
-      </div>
+      
     </div>
-    <div>
-      <h2>Testimoni</h2>
-    </div>
-    <div class="message-wrapper">
+    <div class="message-wrapper" id="testi">
       <div class="container">
-        <div class="heading">
-          <h2>Apakah anda siap untuk menjadi programer yang handal?</h2>
-          <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
+        <div class="heading-message">
+          <h2>TESTIMONI</h2>
+          <h2>Berisi materi.....</h2>
         </div>
-        <span class="btn message">Mulai Belajar</span>
+        <span class="btn message">Silakan Gabung</span>
       </div>
     </div>
-    
-
-
-<!-- footer wrapper start -->
-<div id='footer-container'>
- <footer>
+    <!-- Kontak Form -->
+    <div class="kontak-form" id="kontak">
       <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Created by D17_DTS 2020</p>
+        <div class="form-heading">
+          <h2>Hubungi kami</h2>
+          <p>
+            Bila berkenan menghubungi kami silakan isi form berikut :
+          </p>
+          <hr />
+        </div>
+        <form>
+          <div class="row">
+            <div class="row-15">
+              <label for="fullname">Nama Anda</label>
+            </div>
+            <div class="row-75">
+              <input type="text" id="fullname" placeholder="Nama..." />
+            </div>
+          </div>
+          <div class="row">
+            <div class="row-15">
+              <label for="email">Email</label>
+            </div>
+            <div class="row-75">
+              <input type="email" id="email" placeholder="Email..." />
+            </div>
+          </div>
+            <div class="row">
+            <div class="row-15">
+              <label for="pesan">Pesan</label>
+            </div>
+            <div class="row-75">
+              <textarea
+                name=""
+                id="pesan"
+                cols="30"
+                rows="10"
+                placeholder="Isi Pesan..."
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <button class="btn btn-send">Kirim</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <img
+          src="https://1.bp.blogspot.com/-VkUr11HV3ic/XqEoAAj--YI/AAAAAAAAKtM/mvLIsJK7E6w-KJd7O1UOlSooiI_d3oBDgCLcBGAsYHQ/s320/cooltext355413455550701.png"
+        />
+        <p>Kerja sama membuat proyek melalui kolaborasi tim</p>
       </div>
     </footer>
-</div>
-<!-- footer wrapper end -->
-
+    <script src="https://cdn.statically.io/gh/selahadiku/saveku/625beed4/menumain.js"></script>
   </body>
 </html>
