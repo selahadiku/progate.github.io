@@ -218,6 +218,11 @@ header {
 
 }
 
+.lesson-icon img{
+  width:100px;
+  height:100px;
+}
+
 .lesson-icon p {
   position: absolute;
   top: 44%;
