@@ -37,8 +37,15 @@ a {
   text-decoration: none;
 }
 
+/* Tambahkan CSS untuk clear */
 .clear {
   clear: left;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .container {
