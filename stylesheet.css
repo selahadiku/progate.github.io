@@ -134,10 +134,8 @@ header {
 }
 
 .logo1 {
-  width: 184px;
-  transform: translateY(10%);
-  /* padding-top: 10px; */
-  /* margin-top: 20px; */
+  width: 124px;
+  margin-top: 20px;
 }
 
 .header-left {
