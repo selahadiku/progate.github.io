@@ -209,6 +209,7 @@ header {
 .lesson {
   float: left;
   width: 20%;
+  padding-bottom:60px;
 }
 
 .lesson-icon {
