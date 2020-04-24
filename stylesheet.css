@@ -216,6 +216,12 @@ header {
 
 }
 
+.lesson-icon img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
 
 .lesson-icon p {
   position: absolute;
