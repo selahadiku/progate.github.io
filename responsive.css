@@ -1,10 +1,13 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .team {
+  .tim {
     width: 50%;
     margin-bottom: 50px;
   }
-
+.lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
   .top-wrapper h1 {
     font-size: 30px;
   }
@@ -39,10 +42,12 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .team {
+  .tim {
     width: 100%;
   }
-
+  .lesson {
+    width: 100%;
+  }
   footer {
     text-align: center;
   }
