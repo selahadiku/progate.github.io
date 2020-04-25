@@ -428,3 +428,23 @@ form textarea {
 .animate {
   opacity: 0;
 }
+/* Subscribe Box by selahadi.com */
+#selahadiSubscribe {width:300px; height:auto; background-color:rgba(34, 49, 52, 0.9); border:1px solid #ddd; border-radius:7.5px; display:block; margin:auto; line-height:40px; padding:0px}
+#selahadiSubscribe .medsos__ {padding:15px 0px; line-height:0px; border-top:1px solid #ccc;}
+#selahadiSubscribe form {display:-webkit-box; display:-webkit-flex; display:-moz-box; display:-ms-flexbox; display:flex; flex-wrap:nowrap; align-items:center; margin:0px 0px 15px; padding:0px; position:relative;}
+#selahadiSubscribe form:before {left:15px; position:absolute; display:block; width:20px; height:20px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z' fill='%23717171'/%3E%3C/svg%3E") no-repeat; content:'';}
+#selahadiSubscribe input {width: calc(100% - 35px); background-color:#ccc; line-height:1.5em; border:1px solid #ccc; border-right:0px; padding:8px 10px 8px 40px; font-size:12px; text-align:left !important; border-radius:50px 0px 0px 50px; outline:none; outline-width:0px; box-shadow:none; -moz-box-shadow:none; -webkit-box-shadow:none;}
+#selahadiSubscribe button {background-color:#008c5f; width:40px; min-width:40px; height:36px; margin:0px; padding:0px; border:0px; box-shadow:none; vertical-align:top; cursor:pointer; transition:all .3s ease; background-image:unset; border-radius:0px 50px 50px 0px;}
+#selahadiSubscribe button:hover, #selahadiSubscribe button:focus {background-color:var(--color-hover);}
+#selahadiSubscribe button:before {display:inline-block; width:20px; height:20px; margin:0px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2,21L23,12L2,3V10L17,12L2,14V21Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat; content:''; vertical-align:-3px;}
+#selahadiSubscribe .medsos {width:100%; text-align:center;}
+#selahadiSubscribe .medsos svg {width:20px;height:20px;margin-top:7px}
+#selahadiSubscribe .medsos svg path {fill:#fff}
+#selahadiSubscribe .medsos a {display:inline-block; margin-right:7px; width:35px; height:35px; box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.4); transition: all ease-in-out 300ms; border-radius:100px;}
+#selahadiSubscribe .medsos a:last-child {margin-right:0px;}
+#selahadiSubscribe .medsos a:hover {box-shadow: 0px 23px 15px -3px rgba(0,0,0,0.25); transform: translate(0px, -10px) scale(1.05);}
+#selahadiSubscribe .medsos .facebook{background:#3a579a}
+#selahadiSubscribe .medsos .twitter {background:#00abf0}
+#selahadiSubscribe .medsos .youtube {background:#cc181e}
+#selahadiSubscribe .medsos .instagram {background:#992ebc}
+#selahadiSubscribe .medsos .pinterest {background:#e60023}
